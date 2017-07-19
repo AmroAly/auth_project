@@ -3,7 +3,7 @@
 sudo apt-get update
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install -y apache2 php7.0 php-mbstring php-zip phpunit unzip libapache2-mod-php php7.0-mysql
+sudo apt-get install -y apache2 php7.0 php-mbstring php-zip phpunit unzip libapache2-mod-php php7.0-mysql php7.1-mysql
 
 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password 12345'
 
